@@ -1,7 +1,15 @@
 const $titleInput = document.querySelector('#title-input');
-const $dateInput = document.querySelector('#datetime-input').value;
+const $dateInput = document.querySelector('#datetime-input');
 const $btn = document.querySelector('#start-button');
 let $lineReminder = document.querySelector('#line-reminder');
+let myDate = new Date().getTime();
+
+let testfun = (e) =>{
+    e.preventDefault();
+    $lineReminder.textContent = `The Event is: ${$titleInput.value} & ${$dateInput.value} & ${myDate}` ;
+}
+$btn.addEventListener('click', testfun)
+
 /*let dateWritten = new Date($dateInput).getTime();
 let dateNow = new Date().getTime();
  let dateFunc = () =>{
