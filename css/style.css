@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+section form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(78, 244, 194, 0.5);
+    align-items: center;
+}
+section form input,
+section form label{
+    margin: 20px;
+    width: 60%;
+}
+section form input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+section form label{
+    font-family: 'Potta One', cursive;
+    text-shadow: 2px 2px 2px #3d3a3a
+}
+section form button{
+    margin: 15px;
+    width: 13%;
+    padding: 10px;
+    border: none;
+    background-color: darkslateblue;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+}
