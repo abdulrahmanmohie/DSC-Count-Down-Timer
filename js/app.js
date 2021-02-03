@@ -1,4 +1,2 @@
-/* import * as all from './main.js'
- *//* $btn.addEventListener("click", dateFunc(e){
-    e.preventDefault();
-}); */
+import {$btn, testfun}from './main.js'
+$btn.addEventListener('click', testfun);

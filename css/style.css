@@ -36,3 +36,11 @@ section form button{
     font-weight: bold;
     font-size: 1em;
 }
+.reminder-style2{
+    font: bold 20px 'arial';
+    color: rgb(178, 19, 48);
+}
+.reminder-style1{
+    font: bold 20px 'sans';
+    color: blue;
+}
